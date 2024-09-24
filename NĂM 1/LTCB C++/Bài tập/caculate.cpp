@@ -7,7 +7,6 @@ int main(){
 
     double valueA, valueB; 
     double tong,hieu,tich,thuong;
-    
     cout<<"Enter valueA =";
     cin>>valueA;
     cout<<"Enter valueB =";
@@ -22,4 +21,6 @@ int main(){
     cout<<"hieu ="<<hieu<<endl;
     cout<<"tich ="<<tich<<endl;
     cout<<"thuong ="<<thuong<<endl;
+    system("Pause");
+    return 0;
 }
