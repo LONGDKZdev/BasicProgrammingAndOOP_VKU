@@ -17,5 +17,4 @@ int main(){
     int sum = theFirtNumber + theSecondNumber;
 
     cout<<"Sum of the two digit number = "<<sum<<endl;
-
 }
