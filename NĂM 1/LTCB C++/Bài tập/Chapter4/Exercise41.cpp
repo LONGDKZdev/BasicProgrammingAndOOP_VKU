@@ -11,5 +11,4 @@ int main (){
     else if(valueIn < 0)
     cout<<valueIn<<" is not positive number "<<endl;
 
-    system("cls");
 }

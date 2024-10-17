@@ -13,7 +13,7 @@ int main(){
     cin>>value3;
     cout<<endl;
     if((value1 > (int)pow(-10,9) && value2 > (int)pow(-10,9) && value3 > (int)pow(-10,9)) && (value1 < (int)pow(10,9) && value2 < (int)pow(10,9) && value3 < (int)pow(10,9))){
-    if (value1 > value2) swap(value1, value2);
+    if (value1 > value2) swap(value1,                            value2);
     if (value1 > value3) swap(value1, value3);
     if (value2 > value3) swap(value2, value3);
     cout<<endl;
@@ -21,5 +21,5 @@ int main(){
     }
     else
     cout<<"Not valid";
-
+                             
     }

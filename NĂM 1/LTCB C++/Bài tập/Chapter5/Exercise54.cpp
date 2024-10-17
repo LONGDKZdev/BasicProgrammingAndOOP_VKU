@@ -6,14 +6,11 @@ int main (){
     int i , valueIn, valueOut;
     cout<<"Enter value : ";
     cin>>valueIn;
-    valueOut = 1;
+    valueOut = 0;
     i =1;
-    int valueOut1 = 1;
-    int valueOut2 = 0;
     do
     {
-        valueOut1 = i * i;
-        valueOut2 += valueOut1;
+        valueOut += i*i;
         i++;
     }
     while(i <=valueIn);
@@ -26,5 +23,5 @@ int main (){
             cout<<"("<<a<<"*"<<a<<")";
         }
     }
-    cout<<" = "<<valueOut2;
+    cout<<" = "<<valueOut;
 }
